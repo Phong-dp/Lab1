@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1 - Quản lý Môn học</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        section {
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Menu -->
+<nav>
+    <a href="#requirement">Requirement</a>
+    <a href="#design">Design</a>
+    <a href="#implement">Implement</a>
+</nav>
+
+<!-- Requirement Section -->
+<section id="requirement" class="container">
+    <h2>Requirement</h2>
+    <p>Yêu cầu của bài Lab1:</p>
+    <ul>
+        <li>Chọn 1 đối tượng bất kỳ trong thế giới thực để quản lý (như lớp môn học, giảng viên,...).</li>
+        <li>Thiết kế chức năng Quản lý đối tượng đó trên HTML với các tính năng thêm, sửa, xóa, tìm kiếm.</li>
+        <li>Các thành viên không được chọn đối tượng giống nhau.</li>
+    </ul>
+</section>
+
+<!-- Design Section -->
+<section id="design" class="container">
+    <h2>Design</h2>
+    <p>Liên kết tới các thiết kế:</p>
+    <ul>
+        <li><a href="link-to-paper-design.jpg" target="_blank">Thiết kế trên giấy (ảnh chụp)</a></li>
+        <li><a href="link-to-html-screenshot.png" target="_blank">Chụp màn hình thiết kế HTML</a></li>
+    </ul>
+</section>
+
+<!-- Implement Section -->
+<section id="implement" class="container">
+    <h2>Implement</h2>
+    <p>Liên kết đến mã nguồn và chức năng Quản lý Môn học trên GitHub:</p>
+    <ul>
+        <li><a href="https://github.com/your-github-repo" target="_blank">Xem mã trên GitHub</a></li>
+    </ul>
+</section>
+
+</body>
+</html>
